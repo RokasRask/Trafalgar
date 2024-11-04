@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <script src="script.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" />
@@ -219,7 +220,7 @@
             <img class="element" src="./images/element2.svg" alt="" />
             <div class="slides flexCenter">
               <div class="slide flexCenter">
-                  <h2>What our customers are saying</h2>
+                  <h2 class="slideH2Styling">What our customers are saying</h2>
                   <img src="./images/RectangleWhite.svg" alt="">
                   <div class="insideSlide flexCenter">
                     <div class="personPhotoAndName flexCenter">
@@ -232,14 +233,56 @@
                     <p class="slideText">“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”</p>
                   </div>
               </div>
+              <div class="slide flexCenter">
+                <h2 class="slideH2Styling">What our customers are saying</h2>
+                <img src="./images/RectangleWhite.svg" alt="">
+                <div class="insideSlide flexCenter">
+                  <div class="personPhotoAndName flexCenter">
+                    <img src="./images/PersonPhoto.png" alt="" class="personPhoto">
+                    <div class="personNameAndOccupation flexCenter">
+                      <h3>Edward Newgate</h3>
+                      <h4>Founder Circle</h4>
+                    </div>
+                  </div>
+                  <p class="slideText">“Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius deleniti veniam animi excepturi, labore qui sequi incidunt pariatur! Eum perspiciatis molestiae neque, quasi inventore consectetur.”</p>
+                </div>
             </div>
-            <div class="buttons">
-              <button class="prevSlideBtn"><i class="fa fa-long-arrow-left"></i></button>
-              <input type="checkbox" checked disabled>
-              <input type="checkbox" disabled>
-              <input type="checkbox" disabled>
-              <input type="checkbox" disabled>
-              <button class="nextSlideBtn"><i class="fa fa-long-arrow-right"></i></button>
+            <div class="slide flexCenter">
+              <h2 class="slideH2Styling">What our customers are saying</h2>
+              <img src="./images/RectangleWhite.svg" alt="">
+              <div class="insideSlide flexCenter">
+                <div class="personPhotoAndName flexCenter">
+                  <img src="./images/PersonPhoto.png" alt="" class="personPhoto">
+                  <div class="personNameAndOccupation flexCenter">
+                    <h3>Edward Newgate</h3>
+                    <h4>Founder Circle</h4>
+                  </div>
+                </div>
+                <p class="slideText">“Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident facilis corporis quibusdam quaerat ullam magnam saepe aut ad tempora voluptates!”</p>
+              </div>
+          </div>
+          <div class="slide flexCenter">
+            <h2 class="slideH2Styling">What our customers are saying</h2>
+            <img src="./images/RectangleWhite.svg" alt="">
+            <div class="insideSlide flexCenter">
+              <div class="personPhotoAndName flexCenter">
+                <img src="./images/PersonPhoto.png" alt="" class="personPhoto">
+                <div class="personNameAndOccupation flexCenter">
+                  <h3>Edward Newgate</h3>
+                  <h4>Founder Circle</h4>
+                </div>
+              </div>
+              <p class="slideText">“Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum exercitationem temporibus porro quam laborum, quasi, ipsam doloribus odit assumenda laboriosam at provident enim alias aliquam id neque iusto sapiente nulla.”</p>
+            </div>
+        </div>
+            </div>
+            <div class="buttons flexCenter">
+              <button class="prevSlideBtn" onclick="prevSlide()"><img src="./images/slideArrowRight.svg" alt=""></button>
+              <input type="radio" checked disabled>
+              <input type="radio" disabled>
+              <input type="radio" disabled>
+              <input type="radio" disabled>
+              <button class="nextSlideBtn" onclick="nextSlide()"><img src="./images/slideArrowRight.svg" alt=""></button>
             </div>
           </div>
         </section>
