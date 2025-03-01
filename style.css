@@ -716,3 +716,270 @@ input[type="radio"]:checked {
     color: #1F1534;
     transition: all 0.1s ease-in-out;
 }
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .headerTop {
+        padding: 20px;
+    }
+
+    .headerTop svg {
+        margin-left: 20px;
+    }
+
+    .headerTop ul {
+        margin-right: 20px;
+    }
+
+    .headerBottom .illustration {
+        width: 50%;
+        height: auto;
+        margin-right: 20px;
+    }
+
+    .headerTextBox {
+        width: 40%;
+    }
+
+    .headerTextBox h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .headerTextBox p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .boxesContainer {
+        width: 90%;
+    }
+
+    .ourServicesBox {
+        width: 45%;
+    }
+
+    .middleUpperContainer, .middleLowerContainer {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .leadingHealthContainer, .downloadAppsContainer {
+        width: 80%;
+    }
+
+    .slides {
+        width: 100%;
+    }
+
+    .articleList {
+        flex-direction: column;
+    }
+
+    .articleBox {
+        width: 80%;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+        padding: 40px;
+    }
+
+    .allRightsReserved {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .allRightsReserved img {
+        margin-left: 0;
+    }
+
+    .linkBox {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .headerTop ul {
+        display: none;
+    }
+
+    .headerBottom {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .headerBottom .element {
+        margin: 0;
+    }
+
+    .headerTextBox {
+        width: 80%;
+        text-align: center;
+    }
+
+    .headerTextBox h1 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .headerTextBox p {
+        font-size: 16px;
+    }
+
+    .ourServicesBox {
+        width: 100%;
+    }
+
+    .leadingHealthContainer, .downloadAppsContainer {
+        width: 100%;
+    }
+
+    .slides {
+        height: 300px;
+    }
+
+    .insideSlide {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .insideSlide p {
+        width: 80%;
+    }
+
+    .articleBox {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .headerTextBox h1 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .headerTextBox p {
+        font-size: 14px;
+    }
+
+    .ourServicesBox {
+        padding: 20px;
+    }
+
+    .leadingHealthContainer h2, .downloadAppsContainer h2 {
+        font-size: 24px;
+    }
+
+    .leadingHealthContainer p, .downloadAppsContainer p {
+        font-size: 14px;
+    }
+
+    .slides {
+        height: 250px;
+    }
+
+    .slideH2Styling {
+        font-size: 20px;
+    }
+
+    .insideSlide p {
+        font-size: 14px;
+    }
+
+    .articleBox {
+        height: auto;
+    }
+
+    .articleText h3 {
+        font-size: 16px;
+    }
+
+    .articleText p {
+        font-size: 12px;
+    }
+
+    .footer h3 {
+        font-size: 16px;
+    }
+
+    .footer a {
+        font-size: 12px;
+    }
+}
+
+iframe {
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+}
+
+@media (max-width: 768px) {
+    .headerTop ul {
+        display: none;
+    }
+
+    .headerBottom {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .headerBottom .element {
+        margin: 0;
+    }
+
+    .headerTextBox {
+        width: 80%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .ourServicesBox {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .headerBtn, .ourServicesBtn, .leadingHealthBtn, .downloadBtn, .viewAllBtn {
+        width: 100%;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ourServicesBoxImg {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .allRightsReserved {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .linkBox {
+        align-items: center;
+        text-align: center;
+    }
+}
